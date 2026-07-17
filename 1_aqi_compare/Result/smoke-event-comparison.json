@@ -656,7 +656,71 @@
         },
         {
           "elapsed_hour": 40,
-          "aqi": 269
+          "aqi": 263
+        },
+        {
+          "elapsed_hour": 41,
+          "aqi": 263
+        },
+        {
+          "elapsed_hour": 42,
+          "aqi": 234
+        },
+        {
+          "elapsed_hour": 43,
+          "aqi": 208
+        },
+        {
+          "elapsed_hour": 44,
+          "aqi": 202
+        },
+        {
+          "elapsed_hour": 45,
+          "aqi": 202
+        },
+        {
+          "elapsed_hour": 46,
+          "aqi": 223
+        },
+        {
+          "elapsed_hour": 47,
+          "aqi": 262
+        },
+        {
+          "elapsed_hour": 48,
+          "aqi": 283
+        },
+        {
+          "elapsed_hour": 49,
+          "aqi": 276
+        },
+        {
+          "elapsed_hour": 50,
+          "aqi": 259
+        },
+        {
+          "elapsed_hour": 51,
+          "aqi": 253
+        },
+        {
+          "elapsed_hour": 52,
+          "aqi": 256
+        },
+        {
+          "elapsed_hour": 53,
+          "aqi": 267
+        },
+        {
+          "elapsed_hour": 54,
+          "aqi": 273
+        },
+        {
+          "elapsed_hour": 55,
+          "aqi": 285
+        },
+        {
+          "elapsed_hour": 56,
+          "aqi": 284
         }
       ]
     },
@@ -1311,7 +1375,71 @@
         },
         {
           "elapsed_hour": 40,
-          "aqi": 303
+          "aqi": 278
+        },
+        {
+          "elapsed_hour": 41,
+          "aqi": 261
+        },
+        {
+          "elapsed_hour": 42,
+          "aqi": 272
+        },
+        {
+          "elapsed_hour": 43,
+          "aqi": 287
+        },
+        {
+          "elapsed_hour": 44,
+          "aqi": 347
+        },
+        {
+          "elapsed_hour": 45,
+          "aqi": 433
+        },
+        {
+          "elapsed_hour": 46,
+          "aqi": 482
+        },
+        {
+          "elapsed_hour": 47,
+          "aqi": 397
+        },
+        {
+          "elapsed_hour": 48,
+          "aqi": 358
+        },
+        {
+          "elapsed_hour": 49,
+          "aqi": 405
+        },
+        {
+          "elapsed_hour": 50,
+          "aqi": 440
+        },
+        {
+          "elapsed_hour": 51,
+          "aqi": 462
+        },
+        {
+          "elapsed_hour": 52,
+          "aqi": 468
+        },
+        {
+          "elapsed_hour": 53,
+          "aqi": 461
+        },
+        {
+          "elapsed_hour": 54,
+          "aqi": 454
+        },
+        {
+          "elapsed_hour": 55,
+          "aqi": 450
+        },
+        {
+          "elapsed_hour": 56,
+          "aqi": 451
         }
       ]
     },
@@ -1966,7 +2094,71 @@
         },
         {
           "elapsed_hour": 40,
+          "aqi": 412
+        },
+        {
+          "elapsed_hour": 41,
+          "aqi": 387
+        },
+        {
+          "elapsed_hour": 42,
+          "aqi": 370
+        },
+        {
+          "elapsed_hour": 43,
+          "aqi": 317
+        },
+        {
+          "elapsed_hour": 44,
+          "aqi": 277
+        },
+        {
+          "elapsed_hour": 45,
+          "aqi": 261
+        },
+        {
+          "elapsed_hour": 46,
+          "aqi": 323
+        },
+        {
+          "elapsed_hour": 47,
+          "aqi": 411
+        },
+        {
+          "elapsed_hour": 48,
+          "aqi": 477
+        },
+        {
+          "elapsed_hour": 49,
           "aqi": 470
+        },
+        {
+          "elapsed_hour": 50,
+          "aqi": 427
+        },
+        {
+          "elapsed_hour": 51,
+          "aqi": 404
+        },
+        {
+          "elapsed_hour": 52,
+          "aqi": 399
+        },
+        {
+          "elapsed_hour": 53,
+          "aqi": 407
+        },
+        {
+          "elapsed_hour": 54,
+          "aqi": 413
+        },
+        {
+          "elapsed_hour": 55,
+          "aqi": 414
+        },
+        {
+          "elapsed_hour": 56,
+          "aqi": 414
         }
       ]
     },
@@ -2621,7 +2813,71 @@
         },
         {
           "elapsed_hour": 40,
-          "aqi": 476
+          "aqi": 520
+        },
+        {
+          "elapsed_hour": 41,
+          "aqi": 552
+        },
+        {
+          "elapsed_hour": 42,
+          "aqi": 559
+        },
+        {
+          "elapsed_hour": 43,
+          "aqi": 494
+        },
+        {
+          "elapsed_hour": 44,
+          "aqi": 416
+        },
+        {
+          "elapsed_hour": 45,
+          "aqi": 343
+        },
+        {
+          "elapsed_hour": 46,
+          "aqi": 285
+        },
+        {
+          "elapsed_hour": 47,
+          "aqi": 269
+        },
+        {
+          "elapsed_hour": 48,
+          "aqi": 265
+        },
+        {
+          "elapsed_hour": 49,
+          "aqi": 270
+        },
+        {
+          "elapsed_hour": 50,
+          "aqi": 297
+        },
+        {
+          "elapsed_hour": 51,
+          "aqi": 354
+        },
+        {
+          "elapsed_hour": 52,
+          "aqi": 392
+        },
+        {
+          "elapsed_hour": 53,
+          "aqi": 410
+        },
+        {
+          "elapsed_hour": 54,
+          "aqi": 406
+        },
+        {
+          "elapsed_hour": 55,
+          "aqi": 408
+        },
+        {
+          "elapsed_hour": 56,
+          "aqi": 408
         }
       ]
     },
@@ -3276,7 +3532,71 @@
         },
         {
           "elapsed_hour": 40,
-          "aqi": 559
+          "aqi": 701
+        },
+        {
+          "elapsed_hour": 41,
+          "aqi": 752
+        },
+        {
+          "elapsed_hour": 42,
+          "aqi": 726
+        },
+        {
+          "elapsed_hour": 43,
+          "aqi": 701
+        },
+        {
+          "elapsed_hour": 44,
+          "aqi": 685
+        },
+        {
+          "elapsed_hour": 45,
+          "aqi": 664
+        },
+        {
+          "elapsed_hour": 46,
+          "aqi": 650
+        },
+        {
+          "elapsed_hour": 47,
+          "aqi": 635
+        },
+        {
+          "elapsed_hour": 48,
+          "aqi": 619
+        },
+        {
+          "elapsed_hour": 49,
+          "aqi": 616
+        },
+        {
+          "elapsed_hour": 50,
+          "aqi": 623
+        },
+        {
+          "elapsed_hour": 51,
+          "aqi": 618
+        },
+        {
+          "elapsed_hour": 52,
+          "aqi": 615
+        },
+        {
+          "elapsed_hour": 53,
+          "aqi": 608
+        },
+        {
+          "elapsed_hour": 54,
+          "aqi": 588
+        },
+        {
+          "elapsed_hour": 55,
+          "aqi": 554
+        },
+        {
+          "elapsed_hour": 56,
+          "aqi": 558
         }
       ]
     },
@@ -3931,7 +4251,71 @@
         },
         {
           "elapsed_hour": 40,
-          "aqi": 364
+          "aqi": 320
+        },
+        {
+          "elapsed_hour": 41,
+          "aqi": 298
+        },
+        {
+          "elapsed_hour": 42,
+          "aqi": 276
+        },
+        {
+          "elapsed_hour": 43,
+          "aqi": 256
+        },
+        {
+          "elapsed_hour": 44,
+          "aqi": 257
+        },
+        {
+          "elapsed_hour": 45,
+          "aqi": 255
+        },
+        {
+          "elapsed_hour": 46,
+          "aqi": 251
+        },
+        {
+          "elapsed_hour": 47,
+          "aqi": 260
+        },
+        {
+          "elapsed_hour": 48,
+          "aqi": 271
+        },
+        {
+          "elapsed_hour": 49,
+          "aqi": 285
+        },
+        {
+          "elapsed_hour": 50,
+          "aqi": 323
+        },
+        {
+          "elapsed_hour": 51,
+          "aqi": 374
+        },
+        {
+          "elapsed_hour": 52,
+          "aqi": 375
+        },
+        {
+          "elapsed_hour": 53,
+          "aqi": 380
+        },
+        {
+          "elapsed_hour": 54,
+          "aqi": 409
+        },
+        {
+          "elapsed_hour": 55,
+          "aqi": 409
+        },
+        {
+          "elapsed_hour": 56,
+          "aqi": 409
         }
       ]
     }
