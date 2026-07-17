@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wisconsin daily AQI timelines</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: #171717;
+      background: #ffffff;
+      font-family: "Heebo", sans-serif;
+    }
+
+    .graphic {
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      max-width: 780px;
+      margin: 0 0 8px;
+      font-size: 28px;
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+
+    .dek {
+      max-width: 800px;
+      margin: 0 0 14px;
+      font-size: 15px;
+      line-height: 1.45;
+    }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 15px;
+      margin-bottom: 18px;
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .legend-swatch {
+      width: 11px;
+      height: 11px;
+      background: var(--category-color);
+    }
+
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 26px 22px;
+    }
+
+    .chart-panel { min-width: 0; }
+
+    .chart-panel h2 {
+      margin: 0 0 2px 45px;
+      font-size: 15px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    .plot {
+      width: 100%;
+      height: 260px;
+    }
+
+    .source {
+      margin: 0;
+      color: #9a9696;
+      font-size: 11px;
+      line-height: 1.2;
+    }
+
+    .source:first-of-type { margin-top: 20px; }
+
+    .error {
+      padding: 16px;
+      border-left: 4px solid #d62728;
+      color: #525252;
+    }
+
+    @media (max-width: 700px) {
+      .graphic { padding: 16px; }
+      h1 { font-size: 23px; }
+      .chart-grid { grid-template-columns: minmax(0, 1fr); }
+      .plot { height: 245px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="graphic">
+    <h1>Unhealthy days become more common in Wisconsin</h1>
+    <p class="dek">Daily AQI index from Jan. 2010 to April 2026.</p>
+
+    <div id="legend" class="legend" aria-label="AQI category legend"></div>
+    <div id="chart-grid" class="chart-grid" aria-live="polite"></div>
+
+    <p class="source">Source: U.S. Environmental Protection Agency.</p>
+    <p class="source">Hongyu Liu / Wisconsin Watch</p>
+  </main>
+
+  <script src="https://pym.nprapps.org/pym.v1.min.js"></script>
+  <script>
+    const pymChild = new pym.Child();
+    const DAY_MS = 24 * 60 * 60 * 1000;
+    const grid = document.getElementById("chart-grid");
+    const legend = document.getElementById("legend");
+
+    function renderLegend(categories) {
+      categories.forEach(category => {
+        const item = document.createElement("span");
+        item.className = "legend-item";
+        item.innerHTML = `<span class="legend-swatch" style="--category-color:${category.color}"></span>${category.name}`;
+        legend.appendChild(item);
+      });
+    }
+
+    function render(data) {
+      renderLegend(data.categories);
+
+      data.sites.forEach((site, index) => {
+        const panel = document.createElement("section");
+        panel.className = "chart-panel";
+        panel.innerHTML = `<h2>${site.name}</h2><div class="plot" id="plot-${index}"></div>`;
+        grid.appendChild(panel);
+
+        const trace = {
+          x: site.dates,
+          y: site.aqi,
+          customdata: site.category,
+          type: "bar",
+          width: DAY_MS,
+          marker: { color: site.colors, line: { width: 0 } },
+          hovertemplate: "%{x|%b %d, %Y}<br>AQI %{y:.0f}<br>%{customdata}<extra></extra>"
+        };
+
+        const layout = {
+          margin: { t: 8, r: 10, b: 38, l: 45 },
+          paper_bgcolor: "#ffffff",
+          plot_bgcolor: "#ffffff",
+          showlegend: false,
+          bargap: 0,
+          hovermode: "closest",
+          font: { family: "Heebo, Arial, Helvetica, sans-serif", color: "#000000", size: 11 },
+          xaxis: {
+            range: ["2010-01-01", "2026-04-01"],
+            tick0: "2010-01-01",
+            dtick: "M24",
+            tickformat: "%Y",
+            fixedrange: true,
+            showgrid: false,
+            zeroline: false,
+            linecolor: "#737373",
+            tickcolor: "#737373"
+          },
+          yaxis: {
+            title: index % 2 === 0 || window.innerWidth <= 700
+              ? { text: "Daily AQI", standoff: 6, font: { size: 11 } }
+              : undefined,
+            range: [0, 300],
+            dtick: 50,
+            fixedrange: true,
+            gridcolor: "#e5e7eb",
+            gridwidth: 1,
+            zeroline: false,
+            linecolor: "#737373",
+            tickcolor: "#737373"
+          }
+        };
+
+        Plotly.newPlot(`plot-${index}`, [trace], layout, {
+          responsive: true,
+          displayModeBar: false,
+          scrollZoom: false
+        });
+      });
+
+      pymChild.sendHeight();
+    }
+
+    fetch("./Result/aqi-timelines.json")
+      .then(response => {
+        if (!response.ok) throw new Error(`Data request failed (${response.status})`);
+        return response.json();
+      })
+      .then(render)
+      .catch(error => {
+        grid.innerHTML = `<p class="error">The chart data could not be loaded. ${error.message}</p>`;
+        pymChild.sendHeight();
+      });
+
+  </script>
+</body>
+</html>
