@@ -124,18 +124,33 @@
     const grid = document.getElementById("chart-grid");
 
     let pymChild;
+    let heightFrame;
+
+    function sendHeight() {
+      cancelAnimationFrame(heightFrame);
+      heightFrame = requestAnimationFrame(() => {
+        if (pymChild) pymChild.sendHeight();
+      });
+    }
 
     function handleParentResize() {
       document.querySelectorAll(".plot").forEach(plot => {
         if (plot.data) Plotly.Plots.resize(plot);
       });
-      if (pymChild) requestAnimationFrame(() => pymChild.sendHeight());
+      sendHeight();
     }
 
     pymChild = new pym.Child({
       polling: 500,
       renderCallback: handleParentResize
     });
+
+    // Plotly renders after the initial page load. Keep the parent iframe synced
+    // with every content-size change, without requiring a browser resize.
+    const graphicObserver = new ResizeObserver(sendHeight);
+    graphicObserver.observe(document.querySelector(".graphic"));
+    window.addEventListener("load", sendHeight);
+    if (document.fonts) document.fonts.ready.then(sendHeight);
 
     function values(rows, key) {
       return rows.map(row => row[key]);
@@ -233,7 +248,7 @@
       });
 
       return Promise.all(plotPromises).then(() => {
-        requestAnimationFrame(() => pymChild.sendHeight());
+        sendHeight();
       });
     }
 
@@ -245,7 +260,7 @@
       .then(render)
       .catch(error => {
         grid.innerHTML = `<p class="error">The chart data could not be loaded. ${error.message}</p>`;
-        requestAnimationFrame(() => pymChild.sendHeight());
+        sendHeight();
       });
   </script>
 </body>
