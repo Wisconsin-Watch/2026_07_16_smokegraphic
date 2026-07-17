@@ -119,11 +119,23 @@
 
   <script src="https://pym.nprapps.org/pym.v1.min.js"></script>
   <script>
-    var pymChild = new pym.Child();
-
     const CURRENT_COLOR = "#d81b60";
     const PAST_COLOR = "#9ca3af";
     const grid = document.getElementById("chart-grid");
+
+    let pymChild;
+
+    function handleParentResize() {
+      document.querySelectorAll(".plot").forEach(plot => {
+        if (plot.data) Plotly.Plots.resize(plot);
+      });
+      if (pymChild) requestAnimationFrame(() => pymChild.sendHeight());
+    }
+
+    pymChild = new pym.Child({
+      polling: 500,
+      renderCallback: handleParentResize
+    });
 
     function values(rows, key) {
       return rows.map(row => row[key]);
@@ -147,6 +159,7 @@
       const yMax = Math.max(350, Math.ceil(maxValue / 25) * 25);
       const maxHour = Math.max(...values(allRows, "elapsed_hour"));
       const xMax = Math.ceil(maxHour / 12) * 12;
+      const plotPromises = [];
 
       data.sites.forEach((site, index) => {
         const panel = document.createElement("section");
@@ -208,7 +221,7 @@
           }
         };
 
-        Plotly.newPlot(
+        plotPromises.push(Plotly.newPlot(
           `plot-${index}`,
           [
             trace(site.past, data.past_label, PAST_COLOR, 2),
@@ -216,7 +229,11 @@
           ],
           layout,
           { responsive: true, displayModeBar: false, scrollZoom: false }
-        );
+        ));
+      });
+
+      return Promise.all(plotPromises).then(() => {
+        requestAnimationFrame(() => pymChild.sendHeight());
       });
     }
 
@@ -228,6 +245,7 @@
       .then(render)
       .catch(error => {
         grid.innerHTML = `<p class="error">The chart data could not be loaded. ${error.message}</p>`;
+        requestAnimationFrame(() => pymChild.sendHeight());
       });
   </script>
 </body>
