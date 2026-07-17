@@ -105,7 +105,7 @@
 <body>
   <main class="graphic">
     <h1>Unhealthy days become more common in Wisconsin</h1>
-    <p class="dek">Daily AQI index from Jan. 2010 to April 2026.</p>
+    <p class="dek">Daily AQI from Jan. 2010 to April 2026.</p>
 
     <div id="legend" class="legend" aria-label="AQI category legend"></div>
     <div id="chart-grid" class="chart-grid" aria-live="polite"></div>
@@ -117,6 +117,10 @@
   <script src="https://pym.nprapps.org/pym.v1.min.js"></script>
   <script>
     const DAY_MS = 24 * 60 * 60 * 1000;
+    const LOW_AQI_COLORS = {
+      Good: "#e2e3de",
+      Moderate: "#e6d9be"
+    };
     const grid = document.getElementById("chart-grid");
     const legend = document.getElementById("legend");
 
@@ -138,7 +142,8 @@
       categories.forEach(category => {
         const item = document.createElement("span");
         item.className = "legend-item";
-        item.innerHTML = `<span class="legend-swatch" style="--category-color:${category.color}"></span>${category.name}`;
+        const color = LOW_AQI_COLORS[category.name] || category.color;
+        item.innerHTML = `<span class="legend-swatch" style="--category-color:${color}"></span>${category.name}`;
         legend.appendChild(item);
       });
     }
@@ -159,7 +164,12 @@
           customdata: site.category,
           type: "bar",
           width: DAY_MS,
-          marker: { color: site.colors, line: { width: 0 } },
+          marker: {
+            color: site.category.map((category, colorIndex) =>
+              LOW_AQI_COLORS[category] || site.colors[colorIndex]
+            ),
+            line: { width: 0 }
+          },
           hovertemplate: "%{x|%b %d, %Y}<br>AQI %{y:.0f}<br>%{customdata}<extra></extra>"
         };
 
