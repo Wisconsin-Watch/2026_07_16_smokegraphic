@@ -12,7 +12,7 @@
       margin: 0;
       color: #171717;
       background: #ffffff;
-      font-family: "Heebo", sans-serif;
+      font-family: "Heebo",sans-serif;
     }
 
     .graphic {
@@ -33,6 +33,7 @@
     .dek {
       max-width: 800px;
       margin: 0 0 14px;
+      color: #525252;
       font-size: 15px;
       line-height: 1.45;
     }
@@ -43,7 +44,7 @@
       gap: 8px 15px;
       margin-bottom: 18px;
       font-size: 12px;
-      font-weight: 400;
+      font-weight: 700;
     }
 
     .legend-item {
@@ -80,7 +81,7 @@
 
     .source {
       margin: 0;
-      color: #9a9696;
+      color: #737373;
       font-size: 11px;
       line-height: 1.2;
     }
@@ -115,10 +116,23 @@
 
   <script src="https://pym.nprapps.org/pym.v1.min.js"></script>
   <script>
-    const pymChild = new pym.Child();
     const DAY_MS = 24 * 60 * 60 * 1000;
     const grid = document.getElementById("chart-grid");
     const legend = document.getElementById("legend");
+
+    let pymChild;
+
+    function handleParentResize() {
+      document.querySelectorAll(".plot").forEach(plot => {
+        if (plot.data) Plotly.Plots.resize(plot);
+      });
+      if (pymChild) requestAnimationFrame(() => pymChild.sendHeight());
+    }
+
+    pymChild = new pym.Child({
+      polling: 500,
+      renderCallback: handleParentResize
+    });
 
     function renderLegend(categories) {
       categories.forEach(category => {
@@ -131,6 +145,7 @@
 
     function render(data) {
       renderLegend(data.categories);
+      const plotPromises = [];
 
       data.sites.forEach((site, index) => {
         const panel = document.createElement("section");
@@ -155,7 +170,7 @@
           showlegend: false,
           bargap: 0,
           hovermode: "closest",
-          font: { family: "Heebo, Arial, Helvetica, sans-serif", color: "#000000", size: 11 },
+          font: { family: "Heebo, Arial, Helvetica, sans-serif", color: "#262626", size: 11 },
           xaxis: {
             range: ["2010-01-01", "2026-04-01"],
             tick0: "2010-01-01",
@@ -182,14 +197,16 @@
           }
         };
 
-        Plotly.newPlot(`plot-${index}`, [trace], layout, {
+        plotPromises.push(Plotly.newPlot(`plot-${index}`, [trace], layout, {
           responsive: true,
           displayModeBar: false,
           scrollZoom: false
-        });
+        }));
       });
 
-      pymChild.sendHeight();
+      return Promise.all(plotPromises).then(() => {
+        requestAnimationFrame(() => pymChild.sendHeight());
+      });
     }
 
     fetch("./Result/aqi-timelines.json")
@@ -200,9 +217,8 @@
       .then(render)
       .catch(error => {
         grid.innerHTML = `<p class="error">The chart data could not be loaded. ${error.message}</p>`;
-        pymChild.sendHeight();
+        requestAnimationFrame(() => pymChild.sendHeight());
       });
-
   </script>
 </body>
 </html>
