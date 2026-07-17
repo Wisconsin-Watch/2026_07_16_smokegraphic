@@ -1,0 +1,3939 @@
+{
+  "unit": "AQI",
+  "past_label": "June 2023",
+  "current_label": "July 2026",
+  "past_ground_zero": "2023-06-26 00:00",
+  "current_ground_zero": "2026-07-15 00:00",
+  "sites": [
+    {
+      "name": "MADISON EAST",
+      "past": [
+        {
+          "elapsed_hour": 0,
+          "aqi": 29
+        },
+        {
+          "elapsed_hour": 1,
+          "aqi": 34
+        },
+        {
+          "elapsed_hour": 2,
+          "aqi": 39
+        },
+        {
+          "elapsed_hour": 3,
+          "aqi": 42
+        },
+        {
+          "elapsed_hour": 4,
+          "aqi": 50
+        },
+        {
+          "elapsed_hour": 5,
+          "aqi": 56
+        },
+        {
+          "elapsed_hour": 6,
+          "aqi": 61
+        },
+        {
+          "elapsed_hour": 7,
+          "aqi": 63
+        },
+        {
+          "elapsed_hour": 8,
+          "aqi": 67
+        },
+        {
+          "elapsed_hour": 9,
+          "aqi": 76
+        },
+        {
+          "elapsed_hour": 10,
+          "aqi": 93
+        },
+        {
+          "elapsed_hour": 11,
+          "aqi": 121
+        },
+        {
+          "elapsed_hour": 12,
+          "aqi": 154
+        },
+        {
+          "elapsed_hour": 13,
+          "aqi": 161
+        },
+        {
+          "elapsed_hour": 14,
+          "aqi": 163
+        },
+        {
+          "elapsed_hour": 15,
+          "aqi": 163
+        },
+        {
+          "elapsed_hour": 16,
+          "aqi": 157
+        },
+        {
+          "elapsed_hour": 17,
+          "aqi": 151
+        },
+        {
+          "elapsed_hour": 18,
+          "aqi": 125
+        },
+        {
+          "elapsed_hour": 19,
+          "aqi": 102
+        },
+        {
+          "elapsed_hour": 20,
+          "aqi": 85
+        },
+        {
+          "elapsed_hour": 21,
+          "aqi": 81
+        },
+        {
+          "elapsed_hour": 22,
+          "aqi": 104
+        },
+        {
+          "elapsed_hour": 23,
+          "aqi": 146
+        },
+        {
+          "elapsed_hour": 24,
+          "aqi": 160
+        },
+        {
+          "elapsed_hour": 25,
+          "aqi": 170
+        },
+        {
+          "elapsed_hour": 26,
+          "aqi": 177
+        },
+        {
+          "elapsed_hour": 27,
+          "aqi": 182
+        },
+        {
+          "elapsed_hour": 28,
+          "aqi": 184
+        },
+        {
+          "elapsed_hour": 29,
+          "aqi": 184
+        },
+        {
+          "elapsed_hour": 30,
+          "aqi": 184
+        },
+        {
+          "elapsed_hour": 31,
+          "aqi": 183
+        },
+        {
+          "elapsed_hour": 32,
+          "aqi": 181
+        },
+        {
+          "elapsed_hour": 33,
+          "aqi": 181
+        },
+        {
+          "elapsed_hour": 34,
+          "aqi": 192
+        },
+        {
+          "elapsed_hour": 35,
+          "aqi": 196
+        },
+        {
+          "elapsed_hour": 36,
+          "aqi": 202
+        },
+        {
+          "elapsed_hour": 37,
+          "aqi": 218
+        },
+        {
+          "elapsed_hour": 38,
+          "aqi": 218
+        },
+        {
+          "elapsed_hour": 39,
+          "aqi": 205
+        },
+        {
+          "elapsed_hour": 40,
+          "aqi": 194
+        },
+        {
+          "elapsed_hour": 41,
+          "aqi": 187
+        },
+        {
+          "elapsed_hour": 42,
+          "aqi": 182
+        },
+        {
+          "elapsed_hour": 43,
+          "aqi": 184
+        },
+        {
+          "elapsed_hour": 44,
+          "aqi": 195
+        },
+        {
+          "elapsed_hour": 45,
+          "aqi": 215
+        },
+        {
+          "elapsed_hour": 46,
+          "aqi": 236
+        },
+        {
+          "elapsed_hour": 47,
+          "aqi": 255
+        },
+        {
+          "elapsed_hour": 48,
+          "aqi": 272
+        },
+        {
+          "elapsed_hour": 49,
+          "aqi": 288
+        },
+        {
+          "elapsed_hour": 50,
+          "aqi": 287
+        },
+        {
+          "elapsed_hour": 51,
+          "aqi": 286
+        },
+        {
+          "elapsed_hour": 52,
+          "aqi": 281
+        },
+        {
+          "elapsed_hour": 53,
+          "aqi": 274
+        },
+        {
+          "elapsed_hour": 54,
+          "aqi": 261
+        },
+        {
+          "elapsed_hour": 55,
+          "aqi": 259
+        },
+        {
+          "elapsed_hour": 56,
+          "aqi": 258
+        },
+        {
+          "elapsed_hour": 57,
+          "aqi": 258
+        },
+        {
+          "elapsed_hour": 58,
+          "aqi": 257
+        },
+        {
+          "elapsed_hour": 59,
+          "aqi": 254
+        },
+        {
+          "elapsed_hour": 60,
+          "aqi": 250
+        },
+        {
+          "elapsed_hour": 61,
+          "aqi": 244
+        },
+        {
+          "elapsed_hour": 62,
+          "aqi": 232
+        },
+        {
+          "elapsed_hour": 63,
+          "aqi": 230
+        },
+        {
+          "elapsed_hour": 64,
+          "aqi": 234
+        },
+        {
+          "elapsed_hour": 65,
+          "aqi": 229
+        },
+        {
+          "elapsed_hour": 66,
+          "aqi": 222
+        },
+        {
+          "elapsed_hour": 67,
+          "aqi": 222
+        },
+        {
+          "elapsed_hour": 68,
+          "aqi": 223
+        },
+        {
+          "elapsed_hour": 69,
+          "aqi": 221
+        },
+        {
+          "elapsed_hour": 70,
+          "aqi": 223
+        },
+        {
+          "elapsed_hour": 71,
+          "aqi": 232
+        },
+        {
+          "elapsed_hour": 72,
+          "aqi": 248
+        },
+        {
+          "elapsed_hour": 73,
+          "aqi": 262
+        },
+        {
+          "elapsed_hour": 74,
+          "aqi": 268
+        },
+        {
+          "elapsed_hour": 75,
+          "aqi": 270
+        },
+        {
+          "elapsed_hour": 76,
+          "aqi": 268
+        },
+        {
+          "elapsed_hour": 77,
+          "aqi": 267
+        },
+        {
+          "elapsed_hour": 78,
+          "aqi": 265
+        },
+        {
+          "elapsed_hour": 79,
+          "aqi": 262
+        },
+        {
+          "elapsed_hour": 80,
+          "aqi": 259
+        },
+        {
+          "elapsed_hour": 81,
+          "aqi": 256
+        },
+        {
+          "elapsed_hour": 82,
+          "aqi": 249
+        },
+        {
+          "elapsed_hour": 83,
+          "aqi": 232
+        },
+        {
+          "elapsed_hour": 84,
+          "aqi": 211
+        },
+        {
+          "elapsed_hour": 85,
+          "aqi": 184
+        },
+        {
+          "elapsed_hour": 86,
+          "aqi": 172
+        },
+        {
+          "elapsed_hour": 87,
+          "aqi": 162
+        },
+        {
+          "elapsed_hour": 88,
+          "aqi": 155
+        },
+        {
+          "elapsed_hour": 89,
+          "aqi": 157
+        },
+        {
+          "elapsed_hour": 90,
+          "aqi": 164
+        },
+        {
+          "elapsed_hour": 91,
+          "aqi": 167
+        },
+        {
+          "elapsed_hour": 92,
+          "aqi": 166
+        },
+        {
+          "elapsed_hour": 93,
+          "aqi": 167
+        },
+        {
+          "elapsed_hour": 94,
+          "aqi": 166
+        },
+        {
+          "elapsed_hour": 95,
+          "aqi": 160
+        },
+        {
+          "elapsed_hour": 96,
+          "aqi": 154
+        },
+        {
+          "elapsed_hour": 97,
+          "aqi": 140
+        },
+        {
+          "elapsed_hour": 98,
+          "aqi": 125
+        },
+        {
+          "elapsed_hour": 99,
+          "aqi": 115
+        },
+        {
+          "elapsed_hour": 100,
+          "aqi": 99
+        },
+        {
+          "elapsed_hour": 101,
+          "aqi": 88
+        },
+        {
+          "elapsed_hour": 102,
+          "aqi": 80
+        },
+        {
+          "elapsed_hour": 103,
+          "aqi": 74
+        },
+        {
+          "elapsed_hour": 104,
+          "aqi": 70
+        },
+        {
+          "elapsed_hour": 105,
+          "aqi": 64
+        },
+        {
+          "elapsed_hour": 106,
+          "aqi": 61
+        },
+        {
+          "elapsed_hour": 107,
+          "aqi": 58
+        },
+        {
+          "elapsed_hour": 108,
+          "aqi": 57
+        },
+        {
+          "elapsed_hour": 109,
+          "aqi": 57
+        },
+        {
+          "elapsed_hour": 110,
+          "aqi": 57
+        },
+        {
+          "elapsed_hour": 111,
+          "aqi": 58
+        },
+        {
+          "elapsed_hour": 112,
+          "aqi": 59
+        },
+        {
+          "elapsed_hour": 113,
+          "aqi": 58
+        },
+        {
+          "elapsed_hour": 114,
+          "aqi": 58
+        },
+        {
+          "elapsed_hour": 115,
+          "aqi": 58
+        },
+        {
+          "elapsed_hour": 116,
+          "aqi": 58
+        },
+        {
+          "elapsed_hour": 117,
+          "aqi": 58
+        },
+        {
+          "elapsed_hour": 118,
+          "aqi": 58
+        },
+        {
+          "elapsed_hour": 119,
+          "aqi": 59
+        },
+        {
+          "elapsed_hour": 120,
+          "aqi": 59
+        }
+      ],
+      "current": [
+        {
+          "elapsed_hour": 0,
+          "aqi": 44
+        },
+        {
+          "elapsed_hour": 1,
+          "aqi": 49
+        },
+        {
+          "elapsed_hour": 2,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 3,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 4,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 5,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 6,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 7,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 8,
+          "aqi": 50
+        },
+        {
+          "elapsed_hour": 9,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 10,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 11,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 12,
+          "aqi": 51
+        },
+        {
+          "elapsed_hour": 13,
+          "aqi": 49
+        },
+        {
+          "elapsed_hour": 14,
+          "aqi": 46
+        },
+        {
+          "elapsed_hour": 15,
+          "aqi": 43
+        },
+        {
+          "elapsed_hour": 16,
+          "aqi": 42
+        },
+        {
+          "elapsed_hour": 17,
+          "aqi": 43
+        },
+        {
+          "elapsed_hour": 18,
+          "aqi": 44
+        },
+        {
+          "elapsed_hour": 19,
+          "aqi": 47
+        },
+        {
+          "elapsed_hour": 20,
+          "aqi": 46
+        },
+        {
+          "elapsed_hour": 21,
+          "aqi": 46
+        },
+        {
+          "elapsed_hour": 22,
+          "aqi": 68
+        },
+        {
+          "elapsed_hour": 23,
+          "aqi": 112
+        },
+        {
+          "elapsed_hour": 24,
+          "aqi": 162
+        },
+        {
+          "elapsed_hour": 25,
+          "aqi": 174
+        },
+        {
+          "elapsed_hour": 26,
+          "aqi": 179
+        },
+        {
+          "elapsed_hour": 27,
+          "aqi": 180
+        },
+        {
+          "elapsed_hour": 28,
+          "aqi": 184
+        },
+        {
+          "elapsed_hour": 29,
+          "aqi": 202
+        },
+        {
+          "elapsed_hour": 30,
+          "aqi": 238
+        },
+        {
+          "elapsed_hour": 31,
+          "aqi": 285
+        },
+        {
+          "elapsed_hour": 32,
+          "aqi": 359
+        },
+        {
+          "elapsed_hour": 33,
+          "aqi": 416
+        },
+        {
+          "elapsed_hour": 34,
+          "aqi": 450
+        },
+        {
+          "elapsed_hour": 35,
+          "aqi": 433
+        },
+        {
+          "elapsed_hour": 36,
+          "aqi": 375
+        },
+        {
+          "elapsed_hour": 37,
+          "aqi": 315
+        },
+        {
+          "elapsed_hour": 38,
+          "aqi": 281
+        },
+        {
+          "elapsed_hour": 39,
+          "aqi": 269
+        },
+        {
+          "elapsed_hour": 40,
+          "aqi": 269
+        }
+      ]
+    },
+    {
+      "name": "MILWAUKEE - SIXTEENTH ST. HEALTH CENTER",
+      "past": [
+        {
+          "elapsed_hour": 0,
+          "aqi": 38
+        },
+        {
+          "elapsed_hour": 1,
+          "aqi": 34
+        },
+        {
+          "elapsed_hour": 2,
+          "aqi": 33
+        },
+        {
+          "elapsed_hour": 3,
+          "aqi": 33
+        },
+        {
+          "elapsed_hour": 4,
+          "aqi": 36
+        },
+        {
+          "elapsed_hour": 5,
+          "aqi": 40
+        },
+        {
+          "elapsed_hour": 6,
+          "aqi": 45
+        },
+        {
+          "elapsed_hour": 7,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 8,
+          "aqi": 57
+        },
+        {
+          "elapsed_hour": 9,
+          "aqi": 64
+        },
+        {
+          "elapsed_hour": 10,
+          "aqi": 75
+        },
+        {
+          "elapsed_hour": 11,
+          "aqi": 84
+        },
+        {
+          "elapsed_hour": 12,
+          "aqi": 104
+        },
+        {
+          "elapsed_hour": 13,
+          "aqi": 139
+        },
+        {
+          "elapsed_hour": 14,
+          "aqi": 159
+        },
+        {
+          "elapsed_hour": 15,
+          "aqi": 168
+        },
+        {
+          "elapsed_hour": 16,
+          "aqi": 168
+        },
+        {
+          "elapsed_hour": 17,
+          "aqi": 166
+        },
+        {
+          "elapsed_hour": 18,
+          "aqi": 163
+        },
+        {
+          "elapsed_hour": 19,
+          "aqi": 156
+        },
+        {
+          "elapsed_hour": 20,
+          "aqi": 143
+        },
+        {
+          "elapsed_hour": 21,
+          "aqi": 137
+        },
+        {
+          "elapsed_hour": 22,
+          "aqi": 176
+        },
+        {
+          "elapsed_hour": 23,
+          "aqi": 190
+        },
+        {
+          "elapsed_hour": 24,
+          "aqi": 193
+        },
+        {
+          "elapsed_hour": 25,
+          "aqi": 187
+        },
+        {
+          "elapsed_hour": 26,
+          "aqi": 187
+        },
+        {
+          "elapsed_hour": 27,
+          "aqi": 197
+        },
+        {
+          "elapsed_hour": 28,
+          "aqi": 206
+        },
+        {
+          "elapsed_hour": 29,
+          "aqi": 207
+        },
+        {
+          "elapsed_hour": 30,
+          "aqi": 202
+        },
+        {
+          "elapsed_hour": 31,
+          "aqi": 209
+        },
+        {
+          "elapsed_hour": 32,
+          "aqi": 237
+        },
+        {
+          "elapsed_hour": 33,
+          "aqi": 248
+        },
+        {
+          "elapsed_hour": 34,
+          "aqi": 238
+        },
+        {
+          "elapsed_hour": 35,
+          "aqi": 256
+        },
+        {
+          "elapsed_hour": 36,
+          "aqi": 262
+        },
+        {
+          "elapsed_hour": 37,
+          "aqi": 244
+        },
+        {
+          "elapsed_hour": 38,
+          "aqi": 235
+        },
+        {
+          "elapsed_hour": 39,
+          "aqi": 242
+        },
+        {
+          "elapsed_hour": 40,
+          "aqi": 254
+        },
+        {
+          "elapsed_hour": 41,
+          "aqi": 267
+        },
+        {
+          "elapsed_hour": 42,
+          "aqi": 273
+        },
+        {
+          "elapsed_hour": 43,
+          "aqi": 278
+        },
+        {
+          "elapsed_hour": 44,
+          "aqi": 281
+        },
+        {
+          "elapsed_hour": 45,
+          "aqi": 281
+        },
+        {
+          "elapsed_hour": 46,
+          "aqi": 275
+        },
+        {
+          "elapsed_hour": 47,
+          "aqi": 270
+        },
+        {
+          "elapsed_hour": 48,
+          "aqi": 268
+        },
+        {
+          "elapsed_hour": 49,
+          "aqi": 263
+        },
+        {
+          "elapsed_hour": 50,
+          "aqi": 265
+        },
+        {
+          "elapsed_hour": 51,
+          "aqi": 252
+        },
+        {
+          "elapsed_hour": 52,
+          "aqi": 247
+        },
+        {
+          "elapsed_hour": 53,
+          "aqi": 247
+        },
+        {
+          "elapsed_hour": 54,
+          "aqi": 245
+        },
+        {
+          "elapsed_hour": 55,
+          "aqi": 237
+        },
+        {
+          "elapsed_hour": 56,
+          "aqi": 222
+        },
+        {
+          "elapsed_hour": 57,
+          "aqi": 222
+        },
+        {
+          "elapsed_hour": 58,
+          "aqi": 219
+        },
+        {
+          "elapsed_hour": 59,
+          "aqi": 213
+        },
+        {
+          "elapsed_hour": 60,
+          "aqi": 207
+        },
+        {
+          "elapsed_hour": 61,
+          "aqi": 203
+        },
+        {
+          "elapsed_hour": 62,
+          "aqi": 196
+        },
+        {
+          "elapsed_hour": 63,
+          "aqi": 195
+        },
+        {
+          "elapsed_hour": 64,
+          "aqi": 197
+        },
+        {
+          "elapsed_hour": 65,
+          "aqi": 239
+        },
+        {
+          "elapsed_hour": 66,
+          "aqi": 241
+        },
+        {
+          "elapsed_hour": 67,
+          "aqi": 226
+        },
+        {
+          "elapsed_hour": 68,
+          "aqi": 217
+        },
+        {
+          "elapsed_hour": 69,
+          "aqi": 211
+        },
+        {
+          "elapsed_hour": 70,
+          "aqi": 203
+        },
+        {
+          "elapsed_hour": 71,
+          "aqi": 199
+        },
+        {
+          "elapsed_hour": 72,
+          "aqi": 194
+        },
+        {
+          "elapsed_hour": 73,
+          "aqi": 191
+        },
+        {
+          "elapsed_hour": 74,
+          "aqi": 189
+        },
+        {
+          "elapsed_hour": 75,
+          "aqi": 189
+        },
+        {
+          "elapsed_hour": 76,
+          "aqi": 185
+        },
+        {
+          "elapsed_hour": 77,
+          "aqi": 181
+        },
+        {
+          "elapsed_hour": 78,
+          "aqi": 180
+        },
+        {
+          "elapsed_hour": 79,
+          "aqi": 181
+        },
+        {
+          "elapsed_hour": 80,
+          "aqi": 183
+        },
+        {
+          "elapsed_hour": 81,
+          "aqi": 183
+        },
+        {
+          "elapsed_hour": 82,
+          "aqi": 183
+        },
+        {
+          "elapsed_hour": 83,
+          "aqi": 184
+        },
+        {
+          "elapsed_hour": 84,
+          "aqi": 185
+        },
+        {
+          "elapsed_hour": 85,
+          "aqi": 183
+        },
+        {
+          "elapsed_hour": 86,
+          "aqi": 182
+        },
+        {
+          "elapsed_hour": 87,
+          "aqi": 181
+        },
+        {
+          "elapsed_hour": 88,
+          "aqi": 179
+        },
+        {
+          "elapsed_hour": 89,
+          "aqi": 174
+        },
+        {
+          "elapsed_hour": 90,
+          "aqi": 166
+        },
+        {
+          "elapsed_hour": 91,
+          "aqi": 158
+        },
+        {
+          "elapsed_hour": 92,
+          "aqi": 153
+        },
+        {
+          "elapsed_hour": 93,
+          "aqi": 153
+        },
+        {
+          "elapsed_hour": 94,
+          "aqi": 153
+        },
+        {
+          "elapsed_hour": 95,
+          "aqi": 155
+        },
+        {
+          "elapsed_hour": 96,
+          "aqi": 155
+        },
+        {
+          "elapsed_hour": 97,
+          "aqi": 156
+        },
+        {
+          "elapsed_hour": 98,
+          "aqi": 155
+        },
+        {
+          "elapsed_hour": 99,
+          "aqi": 159
+        },
+        {
+          "elapsed_hour": 100,
+          "aqi": 165
+        },
+        {
+          "elapsed_hour": 101,
+          "aqi": 169
+        },
+        {
+          "elapsed_hour": 102,
+          "aqi": 167
+        },
+        {
+          "elapsed_hour": 103,
+          "aqi": 158
+        },
+        {
+          "elapsed_hour": 104,
+          "aqi": 134
+        },
+        {
+          "elapsed_hour": 105,
+          "aqi": 103
+        },
+        {
+          "elapsed_hour": 106,
+          "aqi": 83
+        },
+        {
+          "elapsed_hour": 107,
+          "aqi": 72
+        },
+        {
+          "elapsed_hour": 108,
+          "aqi": 67
+        },
+        {
+          "elapsed_hour": 109,
+          "aqi": 65
+        },
+        {
+          "elapsed_hour": 110,
+          "aqi": 64
+        },
+        {
+          "elapsed_hour": 111,
+          "aqi": 65
+        },
+        {
+          "elapsed_hour": 112,
+          "aqi": 65
+        },
+        {
+          "elapsed_hour": 113,
+          "aqi": 66
+        },
+        {
+          "elapsed_hour": 114,
+          "aqi": 67
+        },
+        {
+          "elapsed_hour": 115,
+          "aqi": 69
+        },
+        {
+          "elapsed_hour": 116,
+          "aqi": 70
+        },
+        {
+          "elapsed_hour": 117,
+          "aqi": 80
+        },
+        {
+          "elapsed_hour": 118,
+          "aqi": 81
+        },
+        {
+          "elapsed_hour": 119,
+          "aqi": 82
+        },
+        {
+          "elapsed_hour": 120,
+          "aqi": 80
+        }
+      ],
+      "current": [
+        {
+          "elapsed_hour": 0,
+          "aqi": 47
+        },
+        {
+          "elapsed_hour": 1,
+          "aqi": 47
+        },
+        {
+          "elapsed_hour": 2,
+          "aqi": 48
+        },
+        {
+          "elapsed_hour": 3,
+          "aqi": 48
+        },
+        {
+          "elapsed_hour": 4,
+          "aqi": 49
+        },
+        {
+          "elapsed_hour": 5,
+          "aqi": 51
+        },
+        {
+          "elapsed_hour": 6,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 7,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 8,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 9,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 10,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 11,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 12,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 13,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 14,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 15,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 16,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 17,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 18,
+          "aqi": 103
+        },
+        {
+          "elapsed_hour": 19,
+          "aqi": 163
+        },
+        {
+          "elapsed_hour": 20,
+          "aqi": 190
+        },
+        {
+          "elapsed_hour": 21,
+          "aqi": 215
+        },
+        {
+          "elapsed_hour": 22,
+          "aqi": 230
+        },
+        {
+          "elapsed_hour": 23,
+          "aqi": 243
+        },
+        {
+          "elapsed_hour": 24,
+          "aqi": 251
+        },
+        {
+          "elapsed_hour": 25,
+          "aqi": 263
+        },
+        {
+          "elapsed_hour": 26,
+          "aqi": 259
+        },
+        {
+          "elapsed_hour": 27,
+          "aqi": 284
+        },
+        {
+          "elapsed_hour": 28,
+          "aqi": 345
+        },
+        {
+          "elapsed_hour": 29,
+          "aqi": 440
+        },
+        {
+          "elapsed_hour": 30,
+          "aqi": 519
+        },
+        {
+          "elapsed_hour": 31,
+          "aqi": 566
+        },
+        {
+          "elapsed_hour": 32,
+          "aqi": 608
+        },
+        {
+          "elapsed_hour": 33,
+          "aqi": 600
+        },
+        {
+          "elapsed_hour": 34,
+          "aqi": 635
+        },
+        {
+          "elapsed_hour": 35,
+          "aqi": 644
+        },
+        {
+          "elapsed_hour": 36,
+          "aqi": 559
+        },
+        {
+          "elapsed_hour": 37,
+          "aqi": 447
+        },
+        {
+          "elapsed_hour": 38,
+          "aqi": 379
+        },
+        {
+          "elapsed_hour": 39,
+          "aqi": 303
+        },
+        {
+          "elapsed_hour": 40,
+          "aqi": 303
+        }
+      ]
+    },
+    {
+      "name": "WAUKESHA - CLEVELAND AVE",
+      "past": [
+        {
+          "elapsed_hour": 0,
+          "aqi": 32
+        },
+        {
+          "elapsed_hour": 1,
+          "aqi": 28
+        },
+        {
+          "elapsed_hour": 2,
+          "aqi": 27
+        },
+        {
+          "elapsed_hour": 3,
+          "aqi": 29
+        },
+        {
+          "elapsed_hour": 4,
+          "aqi": 33
+        },
+        {
+          "elapsed_hour": 5,
+          "aqi": 38
+        },
+        {
+          "elapsed_hour": 6,
+          "aqi": 47
+        },
+        {
+          "elapsed_hour": 7,
+          "aqi": 55
+        },
+        {
+          "elapsed_hour": 8,
+          "aqi": 61
+        },
+        {
+          "elapsed_hour": 9,
+          "aqi": 68
+        },
+        {
+          "elapsed_hour": 10,
+          "aqi": 79
+        },
+        {
+          "elapsed_hour": 11,
+          "aqi": 96
+        },
+        {
+          "elapsed_hour": 12,
+          "aqi": 119
+        },
+        {
+          "elapsed_hour": 13,
+          "aqi": 157
+        },
+        {
+          "elapsed_hour": 14,
+          "aqi": 168
+        },
+        {
+          "elapsed_hour": 15,
+          "aqi": 169
+        },
+        {
+          "elapsed_hour": 16,
+          "aqi": 168
+        },
+        {
+          "elapsed_hour": 17,
+          "aqi": 162
+        },
+        {
+          "elapsed_hour": 18,
+          "aqi": 158
+        },
+        {
+          "elapsed_hour": 19,
+          "aqi": 146
+        },
+        {
+          "elapsed_hour": 20,
+          "aqi": 122
+        },
+        {
+          "elapsed_hour": 21,
+          "aqi": 105
+        },
+        {
+          "elapsed_hour": 22,
+          "aqi": 157
+        },
+        {
+          "elapsed_hour": 23,
+          "aqi": 183
+        },
+        {
+          "elapsed_hour": 24,
+          "aqi": 193
+        },
+        {
+          "elapsed_hour": 25,
+          "aqi": 193
+        },
+        {
+          "elapsed_hour": 26,
+          "aqi": 191
+        },
+        {
+          "elapsed_hour": 27,
+          "aqi": 190
+        },
+        {
+          "elapsed_hour": 28,
+          "aqi": 193
+        },
+        {
+          "elapsed_hour": 29,
+          "aqi": 194
+        },
+        {
+          "elapsed_hour": 30,
+          "aqi": 194
+        },
+        {
+          "elapsed_hour": 31,
+          "aqi": 195
+        },
+        {
+          "elapsed_hour": 32,
+          "aqi": 201
+        },
+        {
+          "elapsed_hour": 33,
+          "aqi": 212
+        },
+        {
+          "elapsed_hour": 34,
+          "aqi": 212
+        },
+        {
+          "elapsed_hour": 35,
+          "aqi": 228
+        },
+        {
+          "elapsed_hour": 36,
+          "aqi": 289
+        },
+        {
+          "elapsed_hour": 37,
+          "aqi": 338
+        },
+        {
+          "elapsed_hour": 38,
+          "aqi": 373
+        },
+        {
+          "elapsed_hour": 39,
+          "aqi": 386
+        },
+        {
+          "elapsed_hour": 40,
+          "aqi": 433
+        },
+        {
+          "elapsed_hour": 41,
+          "aqi": 443
+        },
+        {
+          "elapsed_hour": 42,
+          "aqi": 354
+        },
+        {
+          "elapsed_hour": 43,
+          "aqi": 306
+        },
+        {
+          "elapsed_hour": 44,
+          "aqi": 295
+        },
+        {
+          "elapsed_hour": 45,
+          "aqi": 300
+        },
+        {
+          "elapsed_hour": 46,
+          "aqi": 308
+        },
+        {
+          "elapsed_hour": 47,
+          "aqi": 314
+        },
+        {
+          "elapsed_hour": 48,
+          "aqi": 316
+        },
+        {
+          "elapsed_hour": 49,
+          "aqi": 314
+        },
+        {
+          "elapsed_hour": 50,
+          "aqi": 312
+        },
+        {
+          "elapsed_hour": 51,
+          "aqi": 309
+        },
+        {
+          "elapsed_hour": 52,
+          "aqi": 305
+        },
+        {
+          "elapsed_hour": 53,
+          "aqi": 299
+        },
+        {
+          "elapsed_hour": 54,
+          "aqi": 294
+        },
+        {
+          "elapsed_hour": 55,
+          "aqi": 273
+        },
+        {
+          "elapsed_hour": 56,
+          "aqi": 241
+        },
+        {
+          "elapsed_hour": 57,
+          "aqi": 230
+        },
+        {
+          "elapsed_hour": 58,
+          "aqi": 219
+        },
+        {
+          "elapsed_hour": 59,
+          "aqi": 219
+        },
+        {
+          "elapsed_hour": 60,
+          "aqi": 211
+        },
+        {
+          "elapsed_hour": 61,
+          "aqi": 191
+        },
+        {
+          "elapsed_hour": 62,
+          "aqi": 175
+        },
+        {
+          "elapsed_hour": 63,
+          "aqi": 177
+        },
+        {
+          "elapsed_hour": 64,
+          "aqi": 172
+        },
+        {
+          "elapsed_hour": 65,
+          "aqi": 173
+        },
+        {
+          "elapsed_hour": 66,
+          "aqi": 179
+        },
+        {
+          "elapsed_hour": 67,
+          "aqi": 174
+        },
+        {
+          "elapsed_hour": 68,
+          "aqi": 171
+        },
+        {
+          "elapsed_hour": 69,
+          "aqi": 175
+        },
+        {
+          "elapsed_hour": 70,
+          "aqi": 182
+        },
+        {
+          "elapsed_hour": 71,
+          "aqi": 186
+        },
+        {
+          "elapsed_hour": 72,
+          "aqi": 188
+        },
+        {
+          "elapsed_hour": 73,
+          "aqi": 191
+        },
+        {
+          "elapsed_hour": 74,
+          "aqi": 192
+        },
+        {
+          "elapsed_hour": 75,
+          "aqi": 194
+        },
+        {
+          "elapsed_hour": 76,
+          "aqi": 196
+        },
+        {
+          "elapsed_hour": 77,
+          "aqi": 198
+        },
+        {
+          "elapsed_hour": 78,
+          "aqi": 201
+        },
+        {
+          "elapsed_hour": 79,
+          "aqi": 205
+        },
+        {
+          "elapsed_hour": 80,
+          "aqi": 205
+        },
+        {
+          "elapsed_hour": 81,
+          "aqi": 202
+        },
+        {
+          "elapsed_hour": 82,
+          "aqi": 199
+        },
+        {
+          "elapsed_hour": 83,
+          "aqi": 195
+        },
+        {
+          "elapsed_hour": 84,
+          "aqi": 185
+        },
+        {
+          "elapsed_hour": 85,
+          "aqi": 173
+        },
+        {
+          "elapsed_hour": 86,
+          "aqi": 167
+        },
+        {
+          "elapsed_hour": 87,
+          "aqi": 167
+        },
+        {
+          "elapsed_hour": 88,
+          "aqi": 167
+        },
+        {
+          "elapsed_hour": 89,
+          "aqi": 167
+        },
+        {
+          "elapsed_hour": 90,
+          "aqi": 167
+        },
+        {
+          "elapsed_hour": 91,
+          "aqi": 165
+        },
+        {
+          "elapsed_hour": 92,
+          "aqi": 164
+        },
+        {
+          "elapsed_hour": 93,
+          "aqi": 163
+        },
+        {
+          "elapsed_hour": 94,
+          "aqi": 162
+        },
+        {
+          "elapsed_hour": 95,
+          "aqi": 163
+        },
+        {
+          "elapsed_hour": 96,
+          "aqi": 163
+        },
+        {
+          "elapsed_hour": 97,
+          "aqi": 163
+        },
+        {
+          "elapsed_hour": 98,
+          "aqi": 164
+        },
+        {
+          "elapsed_hour": 99,
+          "aqi": 166
+        },
+        {
+          "elapsed_hour": 100,
+          "aqi": 169
+        },
+        {
+          "elapsed_hour": 101,
+          "aqi": 169
+        },
+        {
+          "elapsed_hour": 102,
+          "aqi": 168
+        },
+        {
+          "elapsed_hour": 103,
+          "aqi": 163
+        },
+        {
+          "elapsed_hour": 104,
+          "aqi": 137
+        },
+        {
+          "elapsed_hour": 105,
+          "aqi": 97
+        },
+        {
+          "elapsed_hour": 106,
+          "aqi": 80
+        },
+        {
+          "elapsed_hour": 107,
+          "aqi": 69
+        },
+        {
+          "elapsed_hour": 108,
+          "aqi": 64
+        },
+        {
+          "elapsed_hour": 109,
+          "aqi": 62
+        },
+        {
+          "elapsed_hour": 110,
+          "aqi": 61
+        },
+        {
+          "elapsed_hour": 111,
+          "aqi": 61
+        },
+        {
+          "elapsed_hour": 112,
+          "aqi": 62
+        },
+        {
+          "elapsed_hour": 113,
+          "aqi": 62
+        },
+        {
+          "elapsed_hour": 114,
+          "aqi": 64
+        },
+        {
+          "elapsed_hour": 115,
+          "aqi": 65
+        },
+        {
+          "elapsed_hour": 116,
+          "aqi": 67
+        },
+        {
+          "elapsed_hour": 117,
+          "aqi": 71
+        },
+        {
+          "elapsed_hour": 118,
+          "aqi": 74
+        },
+        {
+          "elapsed_hour": 119,
+          "aqi": 76
+        },
+        {
+          "elapsed_hour": 120,
+          "aqi": 76
+        }
+      ],
+      "current": [
+        {
+          "elapsed_hour": 0,
+          "aqi": 43
+        },
+        {
+          "elapsed_hour": 1,
+          "aqi": 45
+        },
+        {
+          "elapsed_hour": 2,
+          "aqi": 47
+        },
+        {
+          "elapsed_hour": 3,
+          "aqi": 50
+        },
+        {
+          "elapsed_hour": 4,
+          "aqi": 51
+        },
+        {
+          "elapsed_hour": 5,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 6,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 7,
+          "aqi": 55
+        },
+        {
+          "elapsed_hour": 8,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 9,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 10,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 11,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 12,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 13,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 14,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 15,
+          "aqi": 51
+        },
+        {
+          "elapsed_hour": 16,
+          "aqi": 51
+        },
+        {
+          "elapsed_hour": 17,
+          "aqi": 49
+        },
+        {
+          "elapsed_hour": 18,
+          "aqi": 55
+        },
+        {
+          "elapsed_hour": 19,
+          "aqi": 106
+        },
+        {
+          "elapsed_hour": 20,
+          "aqi": 163
+        },
+        {
+          "elapsed_hour": 21,
+          "aqi": 194
+        },
+        {
+          "elapsed_hour": 22,
+          "aqi": 204
+        },
+        {
+          "elapsed_hour": 23,
+          "aqi": 213
+        },
+        {
+          "elapsed_hour": 24,
+          "aqi": 219
+        },
+        {
+          "elapsed_hour": 25,
+          "aqi": 223
+        },
+        {
+          "elapsed_hour": 26,
+          "aqi": 230
+        },
+        {
+          "elapsed_hour": 27,
+          "aqi": 238
+        },
+        {
+          "elapsed_hour": 28,
+          "aqi": 258
+        },
+        {
+          "elapsed_hour": 29,
+          "aqi": 289
+        },
+        {
+          "elapsed_hour": 30,
+          "aqi": 393
+        },
+        {
+          "elapsed_hour": 31,
+          "aqi": 470
+        },
+        {
+          "elapsed_hour": 32,
+          "aqi": 552
+        },
+        {
+          "elapsed_hour": 33,
+          "aqi": 614
+        },
+        {
+          "elapsed_hour": 34,
+          "aqi": 658
+        },
+        {
+          "elapsed_hour": 35,
+          "aqi": 663
+        },
+        {
+          "elapsed_hour": 36,
+          "aqi": 621
+        },
+        {
+          "elapsed_hour": 37,
+          "aqi": 567
+        },
+        {
+          "elapsed_hour": 38,
+          "aqi": 497
+        },
+        {
+          "elapsed_hour": 39,
+          "aqi": 454
+        },
+        {
+          "elapsed_hour": 40,
+          "aqi": 470
+        }
+      ]
+    },
+    {
+      "name": "APPLETON - AAL",
+      "past": [
+        {
+          "elapsed_hour": 0,
+          "aqi": 41
+        },
+        {
+          "elapsed_hour": 1,
+          "aqi": 43
+        },
+        {
+          "elapsed_hour": 2,
+          "aqi": 43
+        },
+        {
+          "elapsed_hour": 3,
+          "aqi": 46
+        },
+        {
+          "elapsed_hour": 4,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 5,
+          "aqi": 73
+        },
+        {
+          "elapsed_hour": 6,
+          "aqi": 104
+        },
+        {
+          "elapsed_hour": 7,
+          "aqi": 124
+        },
+        {
+          "elapsed_hour": 8,
+          "aqi": 140
+        },
+        {
+          "elapsed_hour": 9,
+          "aqi": 156
+        },
+        {
+          "elapsed_hour": 10,
+          "aqi": 170
+        },
+        {
+          "elapsed_hour": 11,
+          "aqi": 182
+        },
+        {
+          "elapsed_hour": 12,
+          "aqi": 178
+        },
+        {
+          "elapsed_hour": 13,
+          "aqi": 168
+        },
+        {
+          "elapsed_hour": 14,
+          "aqi": 163
+        },
+        {
+          "elapsed_hour": 15,
+          "aqi": 164
+        },
+        {
+          "elapsed_hour": 16,
+          "aqi": 156
+        },
+        {
+          "elapsed_hour": 17,
+          "aqi": 151
+        },
+        {
+          "elapsed_hour": 18,
+          "aqi": 169
+        },
+        {
+          "elapsed_hour": 19,
+          "aqi": 189
+        },
+        {
+          "elapsed_hour": 20,
+          "aqi": 193
+        },
+        {
+          "elapsed_hour": 21,
+          "aqi": 191
+        },
+        {
+          "elapsed_hour": 22,
+          "aqi": 190
+        },
+        {
+          "elapsed_hour": 23,
+          "aqi": 190
+        },
+        {
+          "elapsed_hour": 24,
+          "aqi": 190
+        },
+        {
+          "elapsed_hour": 25,
+          "aqi": 188
+        },
+        {
+          "elapsed_hour": 26,
+          "aqi": 186
+        },
+        {
+          "elapsed_hour": 27,
+          "aqi": 187
+        },
+        {
+          "elapsed_hour": 28,
+          "aqi": 186
+        },
+        {
+          "elapsed_hour": 29,
+          "aqi": 187
+        },
+        {
+          "elapsed_hour": 30,
+          "aqi": 187
+        },
+        {
+          "elapsed_hour": 31,
+          "aqi": 186
+        },
+        {
+          "elapsed_hour": 32,
+          "aqi": 186
+        },
+        {
+          "elapsed_hour": 33,
+          "aqi": 184
+        },
+        {
+          "elapsed_hour": 34,
+          "aqi": 184
+        },
+        {
+          "elapsed_hour": 35,
+          "aqi": 189
+        },
+        {
+          "elapsed_hour": 36,
+          "aqi": 195
+        },
+        {
+          "elapsed_hour": 37,
+          "aqi": 197
+        },
+        {
+          "elapsed_hour": 38,
+          "aqi": 193
+        },
+        {
+          "elapsed_hour": 39,
+          "aqi": 185
+        },
+        {
+          "elapsed_hour": 40,
+          "aqi": 173
+        },
+        {
+          "elapsed_hour": 41,
+          "aqi": 163
+        },
+        {
+          "elapsed_hour": 42,
+          "aqi": 159
+        },
+        {
+          "elapsed_hour": 43,
+          "aqi": 163
+        },
+        {
+          "elapsed_hour": 44,
+          "aqi": 169
+        },
+        {
+          "elapsed_hour": 45,
+          "aqi": 186
+        },
+        {
+          "elapsed_hour": 46,
+          "aqi": 202
+        },
+        {
+          "elapsed_hour": 47,
+          "aqi": 197
+        },
+        {
+          "elapsed_hour": 48,
+          "aqi": 182
+        },
+        {
+          "elapsed_hour": 49,
+          "aqi": 173
+        },
+        {
+          "elapsed_hour": 50,
+          "aqi": 164
+        },
+        {
+          "elapsed_hour": 51,
+          "aqi": 159
+        },
+        {
+          "elapsed_hour": 52,
+          "aqi": 156
+        },
+        {
+          "elapsed_hour": 53,
+          "aqi": 155
+        },
+        {
+          "elapsed_hour": 54,
+          "aqi": 166
+        },
+        {
+          "elapsed_hour": 55,
+          "aqi": 181
+        },
+        {
+          "elapsed_hour": 56,
+          "aqi": 190
+        },
+        {
+          "elapsed_hour": 57,
+          "aqi": 202
+        },
+        {
+          "elapsed_hour": 58,
+          "aqi": 210
+        },
+        {
+          "elapsed_hour": 59,
+          "aqi": 219
+        },
+        {
+          "elapsed_hour": 60,
+          "aqi": 225
+        },
+        {
+          "elapsed_hour": 61,
+          "aqi": 236
+        },
+        {
+          "elapsed_hour": 62,
+          "aqi": 245
+        },
+        {
+          "elapsed_hour": 63,
+          "aqi": 221
+        },
+        {
+          "elapsed_hour": 64,
+          "aqi": 200
+        },
+        {
+          "elapsed_hour": 65,
+          "aqi": 185
+        },
+        {
+          "elapsed_hour": 66,
+          "aqi": 169
+        },
+        {
+          "elapsed_hour": 67,
+          "aqi": 173
+        },
+        {
+          "elapsed_hour": 68,
+          "aqi": 187
+        },
+        {
+          "elapsed_hour": 69,
+          "aqi": 187
+        },
+        {
+          "elapsed_hour": 70,
+          "aqi": 179
+        },
+        {
+          "elapsed_hour": 71,
+          "aqi": 174
+        },
+        {
+          "elapsed_hour": 72,
+          "aqi": 174
+        },
+        {
+          "elapsed_hour": 73,
+          "aqi": 177
+        },
+        {
+          "elapsed_hour": 74,
+          "aqi": 181
+        },
+        {
+          "elapsed_hour": 75,
+          "aqi": 187
+        },
+        {
+          "elapsed_hour": 76,
+          "aqi": 190
+        },
+        {
+          "elapsed_hour": 77,
+          "aqi": 195
+        },
+        {
+          "elapsed_hour": 78,
+          "aqi": 203
+        },
+        {
+          "elapsed_hour": 79,
+          "aqi": 217
+        },
+        {
+          "elapsed_hour": 80,
+          "aqi": 227
+        },
+        {
+          "elapsed_hour": 81,
+          "aqi": 226
+        },
+        {
+          "elapsed_hour": 82,
+          "aqi": 212
+        },
+        {
+          "elapsed_hour": 83,
+          "aqi": 197
+        },
+        {
+          "elapsed_hour": 84,
+          "aqi": 185
+        },
+        {
+          "elapsed_hour": 85,
+          "aqi": 168
+        },
+        {
+          "elapsed_hour": 86,
+          "aqi": 157
+        },
+        {
+          "elapsed_hour": 87,
+          "aqi": 152
+        },
+        {
+          "elapsed_hour": 88,
+          "aqi": 142
+        },
+        {
+          "elapsed_hour": 89,
+          "aqi": 131
+        },
+        {
+          "elapsed_hour": 90,
+          "aqi": 111
+        },
+        {
+          "elapsed_hour": 91,
+          "aqi": 90
+        },
+        {
+          "elapsed_hour": 92,
+          "aqi": 77
+        },
+        {
+          "elapsed_hour": 93,
+          "aqi": 71
+        },
+        {
+          "elapsed_hour": 94,
+          "aqi": 68
+        },
+        {
+          "elapsed_hour": 95,
+          "aqi": 67
+        },
+        {
+          "elapsed_hour": 96,
+          "aqi": 66
+        },
+        {
+          "elapsed_hour": 97,
+          "aqi": 64
+        },
+        {
+          "elapsed_hour": 98,
+          "aqi": 65
+        },
+        {
+          "elapsed_hour": 99,
+          "aqi": 64
+        },
+        {
+          "elapsed_hour": 100,
+          "aqi": 62
+        },
+        {
+          "elapsed_hour": 101,
+          "aqi": 62
+        },
+        {
+          "elapsed_hour": 102,
+          "aqi": 62
+        },
+        {
+          "elapsed_hour": 103,
+          "aqi": 62
+        },
+        {
+          "elapsed_hour": 104,
+          "aqi": 61
+        },
+        {
+          "elapsed_hour": 105,
+          "aqi": 60
+        },
+        {
+          "elapsed_hour": 106,
+          "aqi": 59
+        },
+        {
+          "elapsed_hour": 107,
+          "aqi": 59
+        },
+        {
+          "elapsed_hour": 108,
+          "aqi": 59
+        },
+        {
+          "elapsed_hour": 109,
+          "aqi": 59
+        },
+        {
+          "elapsed_hour": 110,
+          "aqi": 59
+        },
+        {
+          "elapsed_hour": 111,
+          "aqi": 59
+        },
+        {
+          "elapsed_hour": 112,
+          "aqi": 59
+        },
+        {
+          "elapsed_hour": 113,
+          "aqi": 59
+        },
+        {
+          "elapsed_hour": 114,
+          "aqi": 59
+        },
+        {
+          "elapsed_hour": 115,
+          "aqi": 59
+        },
+        {
+          "elapsed_hour": 116,
+          "aqi": 59
+        },
+        {
+          "elapsed_hour": 117,
+          "aqi": 60
+        },
+        {
+          "elapsed_hour": 118,
+          "aqi": 63
+        },
+        {
+          "elapsed_hour": 119,
+          "aqi": 65
+        },
+        {
+          "elapsed_hour": 120,
+          "aqi": 65
+        }
+      ],
+      "current": [
+        {
+          "elapsed_hour": 0,
+          "aqi": 44
+        },
+        {
+          "elapsed_hour": 1,
+          "aqi": 45
+        },
+        {
+          "elapsed_hour": 2,
+          "aqi": 46
+        },
+        {
+          "elapsed_hour": 3,
+          "aqi": 46
+        },
+        {
+          "elapsed_hour": 4,
+          "aqi": 46
+        },
+        {
+          "elapsed_hour": 5,
+          "aqi": 46
+        },
+        {
+          "elapsed_hour": 6,
+          "aqi": 47
+        },
+        {
+          "elapsed_hour": 7,
+          "aqi": 47
+        },
+        {
+          "elapsed_hour": 8,
+          "aqi": 55
+        },
+        {
+          "elapsed_hour": 9,
+          "aqi": 73
+        },
+        {
+          "elapsed_hour": 10,
+          "aqi": 99
+        },
+        {
+          "elapsed_hour": 11,
+          "aqi": 160
+        },
+        {
+          "elapsed_hour": 12,
+          "aqi": 185
+        },
+        {
+          "elapsed_hour": 13,
+          "aqi": 219
+        },
+        {
+          "elapsed_hour": 14,
+          "aqi": 269
+        },
+        {
+          "elapsed_hour": 15,
+          "aqi": 287
+        },
+        {
+          "elapsed_hour": 16,
+          "aqi": 265
+        },
+        {
+          "elapsed_hour": 17,
+          "aqi": 242
+        },
+        {
+          "elapsed_hour": 18,
+          "aqi": 227
+        },
+        {
+          "elapsed_hour": 19,
+          "aqi": 214
+        },
+        {
+          "elapsed_hour": 20,
+          "aqi": 205
+        },
+        {
+          "elapsed_hour": 21,
+          "aqi": 202
+        },
+        {
+          "elapsed_hour": 22,
+          "aqi": 201
+        },
+        {
+          "elapsed_hour": 23,
+          "aqi": 199
+        },
+        {
+          "elapsed_hour": 24,
+          "aqi": 202
+        },
+        {
+          "elapsed_hour": 25,
+          "aqi": 209
+        },
+        {
+          "elapsed_hour": 26,
+          "aqi": 218
+        },
+        {
+          "elapsed_hour": 27,
+          "aqi": 215
+        },
+        {
+          "elapsed_hour": 28,
+          "aqi": 215
+        },
+        {
+          "elapsed_hour": 29,
+          "aqi": 220
+        },
+        {
+          "elapsed_hour": 30,
+          "aqi": 224
+        },
+        {
+          "elapsed_hour": 31,
+          "aqi": 234
+        },
+        {
+          "elapsed_hour": 32,
+          "aqi": 252
+        },
+        {
+          "elapsed_hour": 33,
+          "aqi": 291
+        },
+        {
+          "elapsed_hour": 34,
+          "aqi": 344
+        },
+        {
+          "elapsed_hour": 35,
+          "aqi": 395
+        },
+        {
+          "elapsed_hour": 36,
+          "aqi": 428
+        },
+        {
+          "elapsed_hour": 37,
+          "aqi": 450
+        },
+        {
+          "elapsed_hour": 38,
+          "aqi": 454
+        },
+        {
+          "elapsed_hour": 39,
+          "aqi": 476
+        },
+        {
+          "elapsed_hour": 40,
+          "aqi": 476
+        }
+      ]
+    },
+    {
+      "name": "BAD RIVER TRIBAL SCHOOL - ODANAH",
+      "past": [
+        {
+          "elapsed_hour": 0,
+          "aqi": 129
+        },
+        {
+          "elapsed_hour": 1,
+          "aqi": 122
+        },
+        {
+          "elapsed_hour": 2,
+          "aqi": 119
+        },
+        {
+          "elapsed_hour": 3,
+          "aqi": 120
+        },
+        {
+          "elapsed_hour": 4,
+          "aqi": 118
+        },
+        {
+          "elapsed_hour": 5,
+          "aqi": 114
+        },
+        {
+          "elapsed_hour": 6,
+          "aqi": 109
+        },
+        {
+          "elapsed_hour": 7,
+          "aqi": 102
+        },
+        {
+          "elapsed_hour": 8,
+          "aqi": 96
+        },
+        {
+          "elapsed_hour": 9,
+          "aqi": 95
+        },
+        {
+          "elapsed_hour": 10,
+          "aqi": 93
+        },
+        {
+          "elapsed_hour": 11,
+          "aqi": 89
+        },
+        {
+          "elapsed_hour": 12,
+          "aqi": 82
+        },
+        {
+          "elapsed_hour": 13,
+          "aqi": 81
+        },
+        {
+          "elapsed_hour": 14,
+          "aqi": 86
+        },
+        {
+          "elapsed_hour": 15,
+          "aqi": 92
+        },
+        {
+          "elapsed_hour": 16,
+          "aqi": 99
+        },
+        {
+          "elapsed_hour": 17,
+          "aqi": 114
+        },
+        {
+          "elapsed_hour": 18,
+          "aqi": 112
+        },
+        {
+          "elapsed_hour": 19,
+          "aqi": 110
+        },
+        {
+          "elapsed_hour": 20,
+          "aqi": 109
+        },
+        {
+          "elapsed_hour": 21,
+          "aqi": 113
+        },
+        {
+          "elapsed_hour": 22,
+          "aqi": 116
+        },
+        {
+          "elapsed_hour": 23,
+          "aqi": 116
+        },
+        {
+          "elapsed_hour": 24,
+          "aqi": 116
+        },
+        {
+          "elapsed_hour": 25,
+          "aqi": 115
+        },
+        {
+          "elapsed_hour": 26,
+          "aqi": 114
+        },
+        {
+          "elapsed_hour": 27,
+          "aqi": 114
+        },
+        {
+          "elapsed_hour": 28,
+          "aqi": 115
+        },
+        {
+          "elapsed_hour": 29,
+          "aqi": 122
+        },
+        {
+          "elapsed_hour": 30,
+          "aqi": 127
+        },
+        {
+          "elapsed_hour": 31,
+          "aqi": 128
+        },
+        {
+          "elapsed_hour": 32,
+          "aqi": 133
+        },
+        {
+          "elapsed_hour": 33,
+          "aqi": 139
+        },
+        {
+          "elapsed_hour": 34,
+          "aqi": 138
+        },
+        {
+          "elapsed_hour": 35,
+          "aqi": 140
+        },
+        {
+          "elapsed_hour": 36,
+          "aqi": 141
+        },
+        {
+          "elapsed_hour": 37,
+          "aqi": 141
+        },
+        {
+          "elapsed_hour": 38,
+          "aqi": 140
+        },
+        {
+          "elapsed_hour": 39,
+          "aqi": 138
+        },
+        {
+          "elapsed_hour": 40,
+          "aqi": 127
+        },
+        {
+          "elapsed_hour": 41,
+          "aqi": 113
+        },
+        {
+          "elapsed_hour": 42,
+          "aqi": 104
+        },
+        {
+          "elapsed_hour": 43,
+          "aqi": 100
+        },
+        {
+          "elapsed_hour": 44,
+          "aqi": 98
+        },
+        {
+          "elapsed_hour": 45,
+          "aqi": 95
+        },
+        {
+          "elapsed_hour": 46,
+          "aqi": 86
+        },
+        {
+          "elapsed_hour": 47,
+          "aqi": 78
+        },
+        {
+          "elapsed_hour": 48,
+          "aqi": 75
+        },
+        {
+          "elapsed_hour": 49,
+          "aqi": 74
+        },
+        {
+          "elapsed_hour": 50,
+          "aqi": 73
+        },
+        {
+          "elapsed_hour": 51,
+          "aqi": 72
+        },
+        {
+          "elapsed_hour": 52,
+          "aqi": 71
+        },
+        {
+          "elapsed_hour": 53,
+          "aqi": 70
+        },
+        {
+          "elapsed_hour": 54,
+          "aqi": 71
+        },
+        {
+          "elapsed_hour": 55,
+          "aqi": 72
+        },
+        {
+          "elapsed_hour": 56,
+          "aqi": 74
+        },
+        {
+          "elapsed_hour": 57,
+          "aqi": 74
+        },
+        {
+          "elapsed_hour": 58,
+          "aqi": 75
+        },
+        {
+          "elapsed_hour": 59,
+          "aqi": 71
+        },
+        {
+          "elapsed_hour": 60,
+          "aqi": 69
+        },
+        {
+          "elapsed_hour": 61,
+          "aqi": 69
+        },
+        {
+          "elapsed_hour": 62,
+          "aqi": 72
+        },
+        {
+          "elapsed_hour": 63,
+          "aqi": 79
+        },
+        {
+          "elapsed_hour": 64,
+          "aqi": 90
+        },
+        {
+          "elapsed_hour": 65,
+          "aqi": 110
+        },
+        {
+          "elapsed_hour": 66,
+          "aqi": 135
+        },
+        {
+          "elapsed_hour": 67,
+          "aqi": 153
+        },
+        {
+          "elapsed_hour": 68,
+          "aqi": 157
+        },
+        {
+          "elapsed_hour": 69,
+          "aqi": 162
+        },
+        {
+          "elapsed_hour": 70,
+          "aqi": 172
+        },
+        {
+          "elapsed_hour": 71,
+          "aqi": 178
+        },
+        {
+          "elapsed_hour": 72,
+          "aqi": 177
+        },
+        {
+          "elapsed_hour": 73,
+          "aqi": 173
+        },
+        {
+          "elapsed_hour": 74,
+          "aqi": 164
+        },
+        {
+          "elapsed_hour": 75,
+          "aqi": 152
+        },
+        {
+          "elapsed_hour": 76,
+          "aqi": 122
+        },
+        {
+          "elapsed_hour": 77,
+          "aqi": 103
+        },
+        {
+          "elapsed_hour": 78,
+          "aqi": 91
+        },
+        {
+          "elapsed_hour": 79,
+          "aqi": 83
+        },
+        {
+          "elapsed_hour": 80,
+          "aqi": 72
+        },
+        {
+          "elapsed_hour": 81,
+          "aqi": 66
+        },
+        {
+          "elapsed_hour": 82,
+          "aqi": 65
+        },
+        {
+          "elapsed_hour": 83,
+          "aqi": 67
+        },
+        {
+          "elapsed_hour": 84,
+          "aqi": 66
+        },
+        {
+          "elapsed_hour": 85,
+          "aqi": 63
+        },
+        {
+          "elapsed_hour": 86,
+          "aqi": 61
+        },
+        {
+          "elapsed_hour": 87,
+          "aqi": 60
+        },
+        {
+          "elapsed_hour": 88,
+          "aqi": 60
+        },
+        {
+          "elapsed_hour": 89,
+          "aqi": 60
+        },
+        {
+          "elapsed_hour": 90,
+          "aqi": 60
+        },
+        {
+          "elapsed_hour": 91,
+          "aqi": 56
+        },
+        {
+          "elapsed_hour": 92,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 93,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 94,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 95,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 96,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 97,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 98,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 99,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 100,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 101,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 102,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 103,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 104,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 105,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 106,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 107,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 108,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 109,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 110,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 111,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 112,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 113,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 114,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 115,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 116,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 117,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 118,
+          "aqi": 55
+        },
+        {
+          "elapsed_hour": 119,
+          "aqi": 56
+        },
+        {
+          "elapsed_hour": 120,
+          "aqi": 57
+        }
+      ],
+      "current": [
+        {
+          "elapsed_hour": 0,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 1,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 2,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 3,
+          "aqi": 75
+        },
+        {
+          "elapsed_hour": 4,
+          "aqi": 151
+        },
+        {
+          "elapsed_hour": 5,
+          "aqi": 169
+        },
+        {
+          "elapsed_hour": 6,
+          "aqi": 179
+        },
+        {
+          "elapsed_hour": 7,
+          "aqi": 193
+        },
+        {
+          "elapsed_hour": 8,
+          "aqi": 209
+        },
+        {
+          "elapsed_hour": 9,
+          "aqi": 223
+        },
+        {
+          "elapsed_hour": 10,
+          "aqi": 246
+        },
+        {
+          "elapsed_hour": 11,
+          "aqi": 449
+        },
+        {
+          "elapsed_hour": 12,
+          "aqi": 632
+        },
+        {
+          "elapsed_hour": 13,
+          "aqi": 706
+        },
+        {
+          "elapsed_hour": 14,
+          "aqi": 784
+        },
+        {
+          "elapsed_hour": 15,
+          "aqi": 801
+        },
+        {
+          "elapsed_hour": 16,
+          "aqi": 775
+        },
+        {
+          "elapsed_hour": 17,
+          "aqi": 750
+        },
+        {
+          "elapsed_hour": 18,
+          "aqi": 716
+        },
+        {
+          "elapsed_hour": 19,
+          "aqi": 693
+        },
+        {
+          "elapsed_hour": 20,
+          "aqi": 672
+        },
+        {
+          "elapsed_hour": 21,
+          "aqi": 652
+        },
+        {
+          "elapsed_hour": 22,
+          "aqi": 673
+        },
+        {
+          "elapsed_hour": 23,
+          "aqi": 656
+        },
+        {
+          "elapsed_hour": 24,
+          "aqi": 643
+        },
+        {
+          "elapsed_hour": 25,
+          "aqi": 621
+        },
+        {
+          "elapsed_hour": 26,
+          "aqi": 603
+        },
+        {
+          "elapsed_hour": 27,
+          "aqi": 589
+        },
+        {
+          "elapsed_hour": 28,
+          "aqi": 582
+        },
+        {
+          "elapsed_hour": 29,
+          "aqi": 580
+        },
+        {
+          "elapsed_hour": 30,
+          "aqi": 574
+        },
+        {
+          "elapsed_hour": 31,
+          "aqi": 569
+        },
+        {
+          "elapsed_hour": 32,
+          "aqi": 554
+        },
+        {
+          "elapsed_hour": 33,
+          "aqi": 547
+        },
+        {
+          "elapsed_hour": 34,
+          "aqi": 561
+        },
+        {
+          "elapsed_hour": 35,
+          "aqi": 563
+        },
+        {
+          "elapsed_hour": 36,
+          "aqi": 555
+        },
+        {
+          "elapsed_hour": 37,
+          "aqi": 548
+        },
+        {
+          "elapsed_hour": 38,
+          "aqi": 542
+        },
+        {
+          "elapsed_hour": 39,
+          "aqi": 559
+        },
+        {
+          "elapsed_hour": 40,
+          "aqi": 559
+        }
+      ]
+    },
+    {
+      "name": "POTAWATOMI",
+      "past": [
+        {
+          "elapsed_hour": 0,
+          "aqi": 70
+        },
+        {
+          "elapsed_hour": 1,
+          "aqi": 97
+        },
+        {
+          "elapsed_hour": 2,
+          "aqi": 133
+        },
+        {
+          "elapsed_hour": 3,
+          "aqi": 143
+        },
+        {
+          "elapsed_hour": 4,
+          "aqi": 155
+        },
+        {
+          "elapsed_hour": 5,
+          "aqi": 168
+        },
+        {
+          "elapsed_hour": 6,
+          "aqi": 178
+        },
+        {
+          "elapsed_hour": 7,
+          "aqi": 186
+        },
+        {
+          "elapsed_hour": 8,
+          "aqi": 184
+        },
+        {
+          "elapsed_hour": 9,
+          "aqi": 172
+        },
+        {
+          "elapsed_hour": 10,
+          "aqi": 164
+        },
+        {
+          "elapsed_hour": 11,
+          "aqi": 167
+        },
+        {
+          "elapsed_hour": 12,
+          "aqi": 165
+        },
+        {
+          "elapsed_hour": 13,
+          "aqi": 160
+        },
+        {
+          "elapsed_hour": 14,
+          "aqi": 159
+        },
+        {
+          "elapsed_hour": 15,
+          "aqi": 173
+        },
+        {
+          "elapsed_hour": 16,
+          "aqi": 174
+        },
+        {
+          "elapsed_hour": 17,
+          "aqi": 169
+        },
+        {
+          "elapsed_hour": 18,
+          "aqi": 169
+        },
+        {
+          "elapsed_hour": 19,
+          "aqi": 173
+        },
+        {
+          "elapsed_hour": 20,
+          "aqi": 176
+        },
+        {
+          "elapsed_hour": 21,
+          "aqi": 171
+        },
+        {
+          "elapsed_hour": 22,
+          "aqi": 174
+        },
+        {
+          "elapsed_hour": 23,
+          "aqi": 179
+        },
+        {
+          "elapsed_hour": 24,
+          "aqi": 184
+        },
+        {
+          "elapsed_hour": 25,
+          "aqi": 186
+        },
+        {
+          "elapsed_hour": 26,
+          "aqi": 187
+        },
+        {
+          "elapsed_hour": 27,
+          "aqi": 187
+        },
+        {
+          "elapsed_hour": 28,
+          "aqi": 187
+        },
+        {
+          "elapsed_hour": 29,
+          "aqi": 185
+        },
+        {
+          "elapsed_hour": 30,
+          "aqi": 182
+        },
+        {
+          "elapsed_hour": 31,
+          "aqi": 176
+        },
+        {
+          "elapsed_hour": 32,
+          "aqi": 166
+        },
+        {
+          "elapsed_hour": 33,
+          "aqi": 161
+        },
+        {
+          "elapsed_hour": 34,
+          "aqi": 146
+        },
+        {
+          "elapsed_hour": 35,
+          "aqi": 107
+        },
+        {
+          "elapsed_hour": 36,
+          "aqi": 88
+        },
+        {
+          "elapsed_hour": 37,
+          "aqi": 82
+        },
+        {
+          "elapsed_hour": 38,
+          "aqi": 81
+        },
+        {
+          "elapsed_hour": 39,
+          "aqi": 82
+        },
+        {
+          "elapsed_hour": 40,
+          "aqi": 82
+        },
+        {
+          "elapsed_hour": 41,
+          "aqi": 80
+        },
+        {
+          "elapsed_hour": 42,
+          "aqi": 78
+        },
+        {
+          "elapsed_hour": 43,
+          "aqi": 77
+        },
+        {
+          "elapsed_hour": 44,
+          "aqi": 77
+        },
+        {
+          "elapsed_hour": 45,
+          "aqi": 81
+        },
+        {
+          "elapsed_hour": 46,
+          "aqi": 89
+        },
+        {
+          "elapsed_hour": 47,
+          "aqi": 106
+        },
+        {
+          "elapsed_hour": 48,
+          "aqi": 97
+        },
+        {
+          "elapsed_hour": 49,
+          "aqi": 85
+        },
+        {
+          "elapsed_hour": 50,
+          "aqi": 84
+        },
+        {
+          "elapsed_hour": 51,
+          "aqi": 99
+        },
+        {
+          "elapsed_hour": 52,
+          "aqi": 111
+        },
+        {
+          "elapsed_hour": 53,
+          "aqi": 143
+        },
+        {
+          "elapsed_hour": 54,
+          "aqi": 162
+        },
+        {
+          "elapsed_hour": 55,
+          "aqi": 173
+        },
+        {
+          "elapsed_hour": 56,
+          "aqi": 184
+        },
+        {
+          "elapsed_hour": 57,
+          "aqi": 191
+        },
+        {
+          "elapsed_hour": 58,
+          "aqi": 191
+        },
+        {
+          "elapsed_hour": 59,
+          "aqi": 190
+        },
+        {
+          "elapsed_hour": 60,
+          "aqi": 192
+        },
+        {
+          "elapsed_hour": 61,
+          "aqi": 193
+        },
+        {
+          "elapsed_hour": 62,
+          "aqi": 195
+        },
+        {
+          "elapsed_hour": 63,
+          "aqi": 200
+        },
+        {
+          "elapsed_hour": 64,
+          "aqi": 203
+        },
+        {
+          "elapsed_hour": 65,
+          "aqi": 201
+        },
+        {
+          "elapsed_hour": 66,
+          "aqi": 201
+        },
+        {
+          "elapsed_hour": 67,
+          "aqi": 199
+        },
+        {
+          "elapsed_hour": 68,
+          "aqi": 195
+        },
+        {
+          "elapsed_hour": 69,
+          "aqi": 185
+        },
+        {
+          "elapsed_hour": 70,
+          "aqi": 174
+        },
+        {
+          "elapsed_hour": 71,
+          "aqi": 171
+        },
+        {
+          "elapsed_hour": 72,
+          "aqi": 172
+        },
+        {
+          "elapsed_hour": 73,
+          "aqi": 171
+        },
+        {
+          "elapsed_hour": 74,
+          "aqi": 172
+        },
+        {
+          "elapsed_hour": 75,
+          "aqi": 173
+        },
+        {
+          "elapsed_hour": 76,
+          "aqi": 174
+        },
+        {
+          "elapsed_hour": 77,
+          "aqi": 175
+        },
+        {
+          "elapsed_hour": 78,
+          "aqi": 176
+        },
+        {
+          "elapsed_hour": 79,
+          "aqi": 177
+        },
+        {
+          "elapsed_hour": 80,
+          "aqi": 178
+        },
+        {
+          "elapsed_hour": 81,
+          "aqi": 175
+        },
+        {
+          "elapsed_hour": 82,
+          "aqi": 165
+        },
+        {
+          "elapsed_hour": 83,
+          "aqi": 139
+        },
+        {
+          "elapsed_hour": 84,
+          "aqi": 98
+        },
+        {
+          "elapsed_hour": 85,
+          "aqi": 80
+        },
+        {
+          "elapsed_hour": 86,
+          "aqi": 69
+        },
+        {
+          "elapsed_hour": 87,
+          "aqi": 62
+        },
+        {
+          "elapsed_hour": 88,
+          "aqi": 57
+        },
+        {
+          "elapsed_hour": 89,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 90,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 91,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 92,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 93,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 94,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 95,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 96,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 97,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 98,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 99,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 100,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 101,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 102,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 103,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 104,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 105,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 106,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 107,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 108,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 109,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 110,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 111,
+          "aqi": 50
+        },
+        {
+          "elapsed_hour": 112,
+          "aqi": 48
+        },
+        {
+          "elapsed_hour": 113,
+          "aqi": 47
+        },
+        {
+          "elapsed_hour": 114,
+          "aqi": 48
+        },
+        {
+          "elapsed_hour": 115,
+          "aqi": 50
+        },
+        {
+          "elapsed_hour": 116,
+          "aqi": 52
+        },
+        {
+          "elapsed_hour": 117,
+          "aqi": 53
+        },
+        {
+          "elapsed_hour": 118,
+          "aqi": 54
+        },
+        {
+          "elapsed_hour": 119,
+          "aqi": 55
+        },
+        {
+          "elapsed_hour": 120,
+          "aqi": 57
+        }
+      ],
+      "current": [
+        {
+          "elapsed_hour": 0,
+          "aqi": 46
+        },
+        {
+          "elapsed_hour": 1,
+          "aqi": 47
+        },
+        {
+          "elapsed_hour": 2,
+          "aqi": 48
+        },
+        {
+          "elapsed_hour": 3,
+          "aqi": 48
+        },
+        {
+          "elapsed_hour": 4,
+          "aqi": 49
+        },
+        {
+          "elapsed_hour": 5,
+          "aqi": 71
+        },
+        {
+          "elapsed_hour": 6,
+          "aqi": 166
+        },
+        {
+          "elapsed_hour": 7,
+          "aqi": 239
+        },
+        {
+          "elapsed_hour": 8,
+          "aqi": 369
+        },
+        {
+          "elapsed_hour": 9,
+          "aqi": 556
+        },
+        {
+          "elapsed_hour": 10,
+          "aqi": 662
+        },
+        {
+          "elapsed_hour": 11,
+          "aqi": 515
+        },
+        {
+          "elapsed_hour": 12,
+          "aqi": 353
+        },
+        {
+          "elapsed_hour": 13,
+          "aqi": 273
+        },
+        {
+          "elapsed_hour": 14,
+          "aqi": 255
+        },
+        {
+          "elapsed_hour": 15,
+          "aqi": 257
+        },
+        {
+          "elapsed_hour": 16,
+          "aqi": 238
+        },
+        {
+          "elapsed_hour": 17,
+          "aqi": 201
+        },
+        {
+          "elapsed_hour": 18,
+          "aqi": 188
+        },
+        {
+          "elapsed_hour": 19,
+          "aqi": 184
+        },
+        {
+          "elapsed_hour": 20,
+          "aqi": 189
+        },
+        {
+          "elapsed_hour": 21,
+          "aqi": 205
+        },
+        {
+          "elapsed_hour": 22,
+          "aqi": 237
+        },
+        {
+          "elapsed_hour": 23,
+          "aqi": 277
+        },
+        {
+          "elapsed_hour": 24,
+          "aqi": 367
+        },
+        {
+          "elapsed_hour": 25,
+          "aqi": 479
+        },
+        {
+          "elapsed_hour": 26,
+          "aqi": 612
+        },
+        {
+          "elapsed_hour": 27,
+          "aqi": 671
+        },
+        {
+          "elapsed_hour": 28,
+          "aqi": 590
+        },
+        {
+          "elapsed_hour": 29,
+          "aqi": 568
+        },
+        {
+          "elapsed_hour": 30,
+          "aqi": 608
+        },
+        {
+          "elapsed_hour": 31,
+          "aqi": 627
+        },
+        {
+          "elapsed_hour": 32,
+          "aqi": 696
+        },
+        {
+          "elapsed_hour": 33,
+          "aqi": 677
+        },
+        {
+          "elapsed_hour": 34,
+          "aqi": 569
+        },
+        {
+          "elapsed_hour": 35,
+          "aqi": 496
+        },
+        {
+          "elapsed_hour": 36,
+          "aqi": 465
+        },
+        {
+          "elapsed_hour": 37,
+          "aqi": 429
+        },
+        {
+          "elapsed_hour": 38,
+          "aqi": 380
+        },
+        {
+          "elapsed_hour": 39,
+          "aqi": 364
+        },
+        {
+          "elapsed_hour": 40,
+          "aqi": 364
+        }
+      ]
+    }
+  ]
+}

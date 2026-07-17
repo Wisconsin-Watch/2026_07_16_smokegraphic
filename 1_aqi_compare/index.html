@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wisconsin smoke event comparison</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: #171717;
+      background: #ffffff;
+      font-family: 'Heebo', sans-serif;
+    }
+
+    .graphic {
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      max-width: 780px;
+      margin: 0 0 8px;
+      font-size: 28px;
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+
+    .dek {
+      max-width: 800px;
+      margin: 0 0 14px;
+      color: #525252;
+      font-size: 15px;
+      line-height: 1.45;
+    }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 18px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .legend-line {
+      width: 25px;
+      height: 3px;
+      background: var(--line-color);
+    }
+
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 26px 22px;
+    }
+
+    .chart-panel {
+      min-width: 0;
+    }
+
+    .chart-panel h2 {
+      margin: 0 0 2px 45px;
+      font-size: 15px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    .plot {
+      width: 100%;
+      height: 245px;
+    }
+
+    .source {
+      margin: 0 0;
+      color: #737373;
+      font-size: 11px;
+      line-height: 1.2;
+    }
+
+    .error {
+      padding: 16px;
+      border-left: 4px solid #d81b60;
+      color: #525252;
+    }
+
+    @media (max-width: 700px) {
+      .graphic { padding: 16px; }
+      h1 { font-size: 23px; }
+      .chart-grid { grid-template-columns: minmax(0, 1fr); }
+      .plot { height: 235px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="graphic">
+    <h1>How the current event compares with the mountain fire smoke in 2023</h1>
+    <p class="dek">Hourly AQI at six Wisconsin monitors. Both events begin at hour 0, midnight Central time on the first day.</p>
+
+    <div class="legend" aria-label="Chart legend">
+      <span class="legend-item"><span class="legend-line" style="--line-color:#d81b60"></span>July 2026</span>
+      <span class="legend-item"><span class="legend-line" style="--line-color:#9ca3af"></span>June 2023</span>
+    </div>
+
+    <div id="chart-grid" class="chart-grid" aria-live="polite"></div>
+    <p class="source">Source: U.S. Environmental Protection Agency AirNow.</p>
+    <p class="source">Hongyu Liu / Wisconsin Watch</p>
+  </main>
+
+  <script src="https://pym.nprapps.org/pym.v1.min.js"></script>
+  <script>
+    var pymChild = new pym.Child();
+
+    const CURRENT_COLOR = "#d81b60";
+    const PAST_COLOR = "#9ca3af";
+    const grid = document.getElementById("chart-grid");
+
+    function values(rows, key) {
+      return rows.map(row => row[key]);
+    }
+
+    function trace(rows, name, color, width) {
+      return {
+        x: values(rows, "elapsed_hour"),
+        y: values(rows, "aqi"),
+        type: "scatter",
+        mode: "lines",
+        name,
+        line: { color, width },
+        hovertemplate: `<b>${name}</b><br>Hour %{x}<br>AQI %{y:.0f}<extra></extra>`
+      };
+    }
+
+    function render(data) {
+      const allRows = data.sites.flatMap(site => [...site.past, ...site.current]);
+      const maxValue = Math.max(...values(allRows, "aqi"));
+      const yMax = Math.max(350, Math.ceil(maxValue / 25) * 25);
+      const maxHour = Math.max(...values(allRows, "elapsed_hour"));
+      const xMax = Math.ceil(maxHour / 12) * 12;
+
+      data.sites.forEach((site, index) => {
+        const panel = document.createElement("section");
+        panel.className = "chart-panel";
+        panel.innerHTML = `<h2>${site.name}</h2><div class="plot" id="plot-${index}"></div>`;
+        grid.appendChild(panel);
+
+        const layout = {
+          margin: { t: 8, r: 10, b: 42, l: 45 },
+          paper_bgcolor: "#ffffff",
+          plot_bgcolor: "#ffffff",
+          showlegend: false,
+          hovermode: "x unified",
+          font: { family: "Arial, Helvetica, sans-serif", color: "#262626", size: 11 },
+          shapes: [{
+            type: "rect",
+            xref: "paper",
+            x0: 0,
+            x1: 1,
+            yref: "y",
+            y0: 300,
+            y1: yMax,
+            fillcolor: "rgba(125, 0, 35, 0.05)",
+            line: { width: 0 },
+            layer: "below"
+          }],
+          annotations: [{
+            xref: "paper",
+            x: 1,
+            xanchor: "right",
+            yref: "y",
+            y: yMax,
+            yanchor: "top",
+            text: "Hazardous",
+            showarrow: false,
+            borderpad: 4,
+            opacity: 1,
+            font: { color: "#7d0023", size: 10 }
+          }],
+          xaxis: {
+            title: { text: "Hours since first midnight", standoff: 9, font: { size: 11 } },
+            range: [0, xMax],
+            dtick: 12,
+            fixedrange: true,
+            showgrid: false,
+            zeroline: false,
+            linecolor: "#737373",
+            tickcolor: "#737373"
+          },
+          yaxis: {
+            title: index % 2 === 0 || window.innerWidth <= 700 ? { text: "AQI", standoff: 6, font: { size: 11 } } : undefined,
+            range: [0, yMax],
+            fixedrange: true,
+            gridcolor: "#e5e7eb",
+            gridwidth: 1,
+            zeroline: false,
+            linecolor: "#737373",
+            tickcolor: "#737373"
+          }
+        };
+
+        Plotly.newPlot(
+          `plot-${index}`,
+          [
+            trace(site.past, data.past_label, PAST_COLOR, 2),
+            trace(site.current, data.current_label, CURRENT_COLOR, 3)
+          ],
+          layout,
+          { responsive: true, displayModeBar: false, scrollZoom: false }
+        );
+      });
+    }
+
+    fetch("./Result/smoke-event-comparison.json")
+      .then(response => {
+        if (!response.ok) throw new Error(`Data request failed (${response.status})`);
+        return response.json();
+      })
+      .then(render)
+      .catch(error => {
+        grid.innerHTML = `<p class="error">The chart data could not be loaded. ${error.message}</p>`;
+      });
+  </script>
+</body>
+</html>
